@@ -1,0 +1,10 @@
+{
+  "name":         "high_quality",
+  "epochs":       400,
+  "batch_size":   4,
+  "save_every_n": 50,
+  "sample_rate":  40000,
+  "rvc_version":  "v2",
+  "keep_ckpts":   "latest",
+  "_note": "More epochs + smaller batch = better convergence, slower training"
+}
